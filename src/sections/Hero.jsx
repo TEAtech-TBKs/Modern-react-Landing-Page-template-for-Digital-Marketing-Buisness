@@ -1,5 +1,5 @@
 import React from "react";
-import CTAButton from "../components/CTAbutton";
+import CTAButton from "../components/CTAButton";
 import heroImage from "../assets/heroImage.jpg";
 
 const Hero = () => {
