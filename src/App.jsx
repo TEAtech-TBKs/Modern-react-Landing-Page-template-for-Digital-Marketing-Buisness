@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
      <Routes>
-      <Route path='/Modern-react-Landing-Page-template-for-Digital-Marketing-Buisness/' element={<LandingPage/>}/>
+      <Route path='/' element={<LandingPage/>}/>
       <Route path='*' element={<NotFound/>}/>
      </Routes>
     </div>
