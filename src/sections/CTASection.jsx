@@ -46,7 +46,7 @@ const CTASection = () => {
         viewport={{ once: true }}
         className="mt-6 text-sm text-background/80"
       >
-        No spam. Just results. 🚀
+        No spam. Just results. <span className="material-symbols-outlined text-white-600 text-2sm align-bottom">monitoring</span>
       </motion.p>
 
       {/* Decorative glow effect */}
