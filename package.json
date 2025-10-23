@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "https://TEAtech-TBKs.github.io/Modern-react-Landing-Page-template-for-Digital-Marketing-Buisness",
+  
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
     "@fortawesome/free-solid-svg-icons": "^7.1.0",
