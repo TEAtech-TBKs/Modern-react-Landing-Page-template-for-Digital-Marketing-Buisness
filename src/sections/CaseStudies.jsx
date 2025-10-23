@@ -7,7 +7,7 @@ import logoFintech from "../assets/fintech.png";
 import logoRestaurant from "../assets/restaurant.jpg";
 import logoEdu from "../assets/edu.jpg";
 import logoBeauty from "../assets/beauty.png";
-import CTAButton from "../components/CTAbutton";
+import CTAButton from "../components/CTAButton";
 
 const caseStudies = [
   {
