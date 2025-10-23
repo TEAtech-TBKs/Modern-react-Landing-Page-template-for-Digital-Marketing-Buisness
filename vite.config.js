@@ -4,5 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Modern-react-Landing-Page-template-for-Digital-Marketing-Buisness/',
+  // base: '/Modern-react-Landing-Page-template-for-Digital-Marketing-Buisness/',
+  // "homepage": "https://TEAtech-TBKs.github.io/Modern-react-Landing-Page-template-for-Digital-Marketing-Buisness"
+
 })
