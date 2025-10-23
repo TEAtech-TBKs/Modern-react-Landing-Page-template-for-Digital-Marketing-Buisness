@@ -1,7 +1,7 @@
 // src/sections/CTASection.jsx
 import React from "react";
 import { motion } from "framer-motion";
-import CTAButton from "../components/CTAbutton";
+import CTAButton from "../../src/components/CTAButton";
 
 const CTASection = () => {
   return (
