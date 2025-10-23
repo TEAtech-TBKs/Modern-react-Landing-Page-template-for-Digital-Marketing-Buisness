@@ -1,13 +1,13 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { FaArrowRight, FaChartLine } from "react-icons/fa";
-import CTAButton from "../components/CTAButton";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import logoFashion from "../assets/fashion.jpg";
 import logoFintech from "../assets/fintech.png";
 import logoRestaurant from "../assets/restaurant.jpg";
 import logoEdu from "../assets/edu.jpg";
 import logoBeauty from "../assets/beauty.png";
+import CTAButton from "../components/CTAbutton";
 
 const caseStudies = [
   {
