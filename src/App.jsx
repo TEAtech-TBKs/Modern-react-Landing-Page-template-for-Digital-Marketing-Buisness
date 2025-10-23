@@ -1,7 +1,7 @@
 import React from 'react'
 import LandingPage from './pages/LandingPage'
 import { Route, Routes } from 'react-router-dom'
-import About from './sections/About'
+import NotFound from './pages/NotFound'
 
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <div>
      <Routes>
       <Route path='/Modern-react-Landing-Page-template-for-Digital-Marketing-Buisness/' element={<LandingPage/>}/>
-      <Route path='/about' element={<About/>}/>
+      <Route path='*' element={<NotFound/>}/>
      </Routes>
     </div>
   )

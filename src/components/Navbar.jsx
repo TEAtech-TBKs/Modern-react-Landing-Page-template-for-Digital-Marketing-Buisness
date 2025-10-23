@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from '../assets/prLogo.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -6,11 +7,13 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        
-        {/* Logo */}
-        <h1 className="text-2xl font-bold text-red-600 tracking-tight">
-          Prolanz<span className="text-gray-900">Digitals</span>
-        </h1>
+        <div className="logoBox flex">
+          <img className="w-10 h-7 p-1" src={Logo} alt="ProlanzDigitals- don't miss out on amazing deals" />
+          {/* Logo */}
+          <h1 className="text-2xl font-bold text-red-600 tracking-tight">
+            Prolanz<span className="text-gray-900">Digitals</span>
+          </h1>
+        </div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-gray-700 font-medium">
@@ -18,7 +21,7 @@ const Navbar = () => {
           <li className="hover:text-red-600 cursor-pointer">About</li>
           <li className="hover:text-red-600 cursor-pointer">Services</li>
           <li className="hover:text-red-600 cursor-pointer">Pricing</li>
-          <li className="hover:text-red-600 cursor-pointer">Contact</li>
+          <li className="hover:text-red-600 cursor-pointer"><a href="/Modern-react-Landing-Page-template-for-Digital-Marketing-Buisness/contact">Contact</a></li>
         </ul>
 
         {/* CTA Button */}
